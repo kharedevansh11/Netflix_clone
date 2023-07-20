@@ -5,8 +5,8 @@
     height: 30px;
     padding: 20px;
     z-index: 1;
+    
     transition: all 0.5s;
-
     transition-timing-function: ease-in;
 
 }
@@ -26,8 +26,13 @@
     height: 50px;
     object-fit: contain;
     cursor: pointer;
-   padding-left: 10px;
+   padding-left: 15px;
+  
 }
+.nav_logo:hover {
+    transition: all 0.3s;
+    transform: scale(1.2); /* Scale up the text by 10% on hover */
+  }
 .nav_avatar{
         position: fixed;
         right: 10px;
