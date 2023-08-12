@@ -20,7 +20,7 @@ function Banner() {
 
   },[]);
 
-  console.log(movie);
+  // console.log(movie);
 
   function truncate(string,n){
       if(string.length > n)

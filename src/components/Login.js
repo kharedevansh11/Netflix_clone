@@ -20,7 +20,7 @@ function Login() {
                      <>
                      <h1>Unlimited TV,Movies,webshow content and more.</h1>
                      <h2>Watch anywhere, cancel at anytime</h2>
-                     <h3>Don't have an account? Sign in now</h3>
+                     <h3>Don't have an account? Sign up now</h3>
  
                      <div className="login_screen_input">
                        <form >
@@ -28,7 +28,7 @@ function Login() {
  
                          <button
                            onClick={()=>{setSignIn(true)}}
-                         className='sign_btn'>Sign in</button>
+                         className='sign_btn'>GET STARTED</button>
                        </form>
                      </div>
                    

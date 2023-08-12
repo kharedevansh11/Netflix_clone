@@ -82,3 +82,15 @@
     cursor: pointer;   
 
 }
+@media (max-width: 768px) {
+    .login_screen_body{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .login_screen_body h1{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
+}

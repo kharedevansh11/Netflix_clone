@@ -1,0 +1,113 @@
+.profileScreen{
+    height: 100vh;
+    color: white;
+    
+    
+}
+.profileScreenBody{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 8%;
+   max-width: 880px;
+}
+.profileInfo{
+    display: flex;
+    flex-direction: row;
+}
+.profileInfo > img{
+    height: 100px;
+    
+}
+.edit{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.profileInfo > h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 2px rgb(45, 45, 45);
+    margin-bottom: 20px;
+}
+.profileDetails{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+    /* flex 1 above so that it uses the remaining space */
+}   
+.profileDetails>h2{
+    background-color: rgb(98, 98, 98);
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.profile_signout_btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+
+}
+.profile_panel_details{
+    display: flex;
+    flex-direction: column;   
+
+}
+.payments{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.subs_btn{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.payments:hover{
+    opacity: 0.8;
+   
+}
+.close_btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+
+}
+
+@media (max-width: 768px) {
+    .profileScreenBody {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profileInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .edit{
+        margin-top: 80px;
+        
+    }
+  }
