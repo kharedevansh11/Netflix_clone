@@ -35,7 +35,7 @@ function ProfileScreen() {
                                     <button className='subs_btn'>Subscribe</button>
                                 </div>
                                 
-                            </div>
+                            </div>  
 
                             <button className='profile_signout_btn' onClick={() => auth.signOut()}>Sign out</button>
 
