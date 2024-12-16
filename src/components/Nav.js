@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Nav.css'
 import { useNavigate} from "react-router-dom";
+import logo from "../logo/logo.png"
 const Nav = () => {
     const navigate = useNavigate();
   const [show,setShow] = useState(false);
@@ -24,7 +25,7 @@ const Nav = () => {
     <div className= {`nav ${show===true && `nav_black`}`}>
       <div className="nav_content">
       <img onClick={()=> navigate("/")}
-      className='nav_logo' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo"  />
+      className='nav_logo' src={logo} alt="logo"  />
       
 
         <img onClick={() => navigate("/profile")}

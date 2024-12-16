@@ -12,7 +12,7 @@ export default function SignUp() {
   const register = (e) => {
     e.preventDefault();
     
-      createUserWithEmailAndPassword(auth,
+      auth.createUserWithEmailAndPassword(
         emailRef.current.value,
         passwordRef.current.value).then((authUser)=>{
             console.log(authUser);

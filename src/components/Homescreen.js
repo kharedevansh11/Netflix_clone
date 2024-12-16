@@ -12,7 +12,7 @@ const Homescreen = () => {
         <Banner/>
 
         <Row
-          title="Netflix orignals"
+          title="CineStream orignals"
           fetchUrl= {requests.fetchNetflixOrignals}
           isLargeRow
            />

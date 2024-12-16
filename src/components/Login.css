@@ -8,8 +8,9 @@
 }
 .login_logo{
     position: fixed;
-    width: 150px;
-    left: 0;
+    width: 200px;
+    height: 60px;
+    /* left: ; */
 }
 .login_screen_button{
     padding: 10px 20px;

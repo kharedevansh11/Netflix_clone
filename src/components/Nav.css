@@ -10,6 +10,18 @@
     transition-timing-function: ease-in;
 
 }
+/* .nav_logo{
+    position: fixed;
+    width: 180px;
+    height: 100px;
+    left: 5px; 
+    top: 10px; 
+    object-fit: contain;
+    cursor: pointer;
+    padding-left: 10px; 
+    left: 0;
+} */
+
 .nav_black{
     background-color: #111;
 
